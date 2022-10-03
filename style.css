@@ -1,0 +1,97 @@
+.title{
+    background-color:#030021;
+    color: antiquewhite;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.title h2{
+    margin: 0;
+    padding: 2px 2px;
+    font-family:  'Roboto Mono', monospace;
+    display: flex;
+    justify-content: center;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.material-symbols-outlined{
+    padding-top: 10px;
+}
+.btn{
+    display: block;
+   
+    margin-bottom: 10px;
+}
+.btn-style{
+    width: 600px;
+    background-color: #d0d0d5;
+    font-family:  'Roboto Mono', monospace;
+    border: 3px black solid;
+    font-weight: bolder;
+    line-height:0.4;
+    font-size:large;
+}
+.btn-style-2{
+    height: 50px;
+    width: 592px;
+    border: 2px black solid;
+}
+
+.identifier{
+text-align:center;
+position: relative;
+max-width: 500px;
+margin-left: 50px;
+border-bottom: 3px #030021 solid;
+line-height: 0.1em;
+}
+.identifier span{
+    padding: 0px 10px;
+    background-color: #fff;
+    font-size: 10px;
+}
+/* .identifier::before{
+    content: " ";
+    height: 2px;
+    width: 130px;
+    top: 50%;
+    position: absolute;
+    background: #030021;
+    display: block;
+    left: 0;
+}
+.identifier::after{
+    content: " ";
+    height: 2px;
+    width: 130px;
+    top: 50%;
+    position: absolute;
+    background: #030021;
+    display: block;
+    right: 0;
+} */
+footer{
+    margin: 10px;
+    padding-left: 23%;
+    padding-right: 23%;
+}
+footer p{
+    font-family: "Lato", Arial;
+    line-height: 1.6em;
+    font-size: 1em;
+    font-weight: 500;
+}
+.btn-style-2::placeholder{
+    font-family: 'Roboto Mono', monospace;
+    font-size: large;
+    font-weight: bolder;
+    padding-left: 20px;
+    
+}
+
